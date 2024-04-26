@@ -1,15 +1,15 @@
-## This file is a PO Template file.
-##
-## "msgid"s here are often extracted from source code.
-## Add new messages manually only if they're dynamic
-## messages that can't be statically extracted.
-##
-## Run "mix gettext.extract" to bring this file up to
-## date. Leave "msgstr"s empty as changing them here has no
-## effect: edit them in PO (.po) files instead.
-#
+## "msgid"s in this file come from POT (.pot) files.
+###
+### Do not add, change, or remove "msgid"s manually here as
+### they're tied to the ones in the corresponding POT file
+### (with the same domain).
+###
+### Use "mix gettext.extract --merge" or "mix gettext.merge"
+### to merge POT files into PO files.
 msgid ""
 msgstr ""
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: lib/block_scout_web/templates/common_components/_minimal_proxy_pattern.html.eex:9
 #, elixir-autogen, elixir-format
@@ -23,17 +23,17 @@ msgstr ""
 
 #: lib/block_scout_web/templates/address/_metatags.html.eex:3
 #, elixir-autogen, elixir-format
-msgid "%{address} - %{subnetwork} Explorer"
+msgid "%{address} - %{subnetwork} Krafna"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:12
 #, elixir-autogen, elixir-format
-msgid "%{block_type} Details"
+msgid "%{block_type} Mafija"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:55
 #, elixir-autogen, elixir-format
-msgid "%{block_type} Height"
+msgid "%{block_type} Visina"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/index.html.eex:7
@@ -43,13 +43,13 @@ msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:85
 #, elixir-autogen, elixir-format
-msgid "%{count} Transaction"
+msgid "%{count} Plavusa"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:87
 #: lib/block_scout_web/templates/chain/_block.html.eex:11
 #, elixir-autogen, elixir-format
-msgid "%{count} Transactions"
+msgid "%{count} Redaljka"
 msgstr ""
 
 #: lib/block_scout_web/views/address_token_balance_view.ex:10
@@ -73,12 +73,12 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:2
 #, elixir-autogen, elixir-format
-msgid "%{subnetwork} %{network} Explorer"
+msgid "%{subnetwork} %{network} Severina"
 msgstr ""
 
 #: lib/block_scout_web/templates/layout/_default_title.html.eex:2
 #, elixir-autogen, elixir-format
-msgid "%{subnetwork} Explorer - BlockScout"
+msgid "%{subnetwork} Grse - Nicki"
 msgstr ""
 
 #: lib/block_scout_web/views/transaction_view.ex:375
@@ -204,12 +204,12 @@ msgstr ""
 #: lib/block_scout_web/templates/account/tag_transaction/index.html.eex:24
 #: lib/block_scout_web/templates/api_docs/_action_tile.html.eex:69
 #, elixir-autogen, elixir-format
-msgid "Action"
+msgid "Akcija"
 msgstr ""
 
 #: lib/block_scout_web/templates/account/watchlist/show.html.eex:25
 #, elixir-autogen, elixir-format
-msgid "Actions"
+msgid "Akacijanje"
 msgstr ""
 
 #: lib/block_scout_web/templates/account/api_key/form.html.eex:7
@@ -280,7 +280,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:263
 #, elixir-autogen, elixir-format
-msgid "Address (external or contract) receiving the transaction."
+msgid "Marakana (external or contract) receiving the transaction."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:245
@@ -381,7 +381,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/gas_price_oracle_legend_item.html.eex:21
 #, elixir-autogen, elixir-format
-msgid "Average"
+msgid "Prosjek"
 msgstr ""
 
 #: lib/block_scout_web/templates/account/api_key/form.html.eex:25
@@ -414,7 +414,7 @@ msgstr ""
 #: lib/block_scout_web/templates/page_not_found/index.html.eex:9
 #: lib/block_scout_web/templates/transaction/not_found.html.eex:13
 #, elixir-autogen, elixir-format
-msgid "Back to home"
+msgid " Idi doma"
 msgstr ""
 
 #: lib/block_scout_web/templates/account/watchlist/show.html.eex:24
@@ -422,7 +422,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_token/overview.html.eex:51
 #: lib/block_scout_web/templates/verified_contracts/index.html.eex:63
 #, elixir-autogen, elixir-format
-msgid "Balance"
+msgid "Balans"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction_state/index.html.eex:40
@@ -453,7 +453,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:545
 #, elixir-autogen, elixir-format
-msgid "Binary data included with the transaction. See input / logs below for additional info."
+msgid "Binarna data included with the transaction. See input / logs below for additional info."
 msgstr ""
 
 #: lib/block_scout_web/templates/address_coin_balance/_coin_balances.html.eex:8
@@ -462,14 +462,14 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/overview.html.eex:161
 #: lib/block_scout_web/templates/withdrawal/index.html.eex:29
 #, elixir-autogen, elixir-format
-msgid "Block"
+msgid "Blokic"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/_link.html.eex:2
 #: lib/block_scout_web/templates/internal_transaction/_tile.html.eex:32
 #: lib/block_scout_web/templates/tokens/transfer/_token_transfer.html.eex:43
 #, elixir-autogen, elixir-format
-msgid "Block #%{number}"
+msgid "block_transaction_view #%{number}"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/_metatags.html.eex:3
@@ -479,12 +479,12 @@ msgstr ""
 
 #: lib/block_scout_web/templates/block_transaction/404.html.eex:7
 #, elixir-autogen, elixir-format
-msgid "Block Details"
+msgid "Blokic detalji"
 msgstr ""
 
 #: lib/block_scout_web/templates/block/overview.html.eex:53
 #, elixir-autogen, elixir-format
-msgid "Block Height"
+msgid "Blokic visina"
 msgstr ""
 
 #: lib/block_scout_web/templates/layout/app.html.eex:47
@@ -531,7 +531,7 @@ msgstr ""
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:34
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:38
 #, elixir-autogen, elixir-format
-msgid "Blocks"
+msgid "Blokici"
 msgstr ""
 
 #: lib/block_scout_web/templates/layout/app.html.eex:46
@@ -1032,7 +1032,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:70
 #, elixir-autogen, elixir-format
-msgid "Daily Transactions"
+msgid "Dnevne transakcije"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_logs/_logs.html.eex:98
@@ -3627,12 +3627,12 @@ msgid "Actual gas amount used by the transaction on L2."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:203
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Block number containing the transaction on L1."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:204
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "L1 Block"
 msgstr ""
 
@@ -3644,7 +3644,7 @@ msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:512
 #: lib/block_scout_web/templates/transaction/overview.html.eex:513
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "L1 Gas Price"
 msgstr ""
 
@@ -3655,12 +3655,12 @@ msgid "L1 Gas Used by Transaction"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:426
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "L2 Gas Limit"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:400
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "L2 Gas Price"
 msgstr ""
 
@@ -3682,7 +3682,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_withdrawal/index.html.eex:41
 #: lib/block_scout_web/templates/block_withdrawal/index.html.eex:32
 #: lib/block_scout_web/templates/withdrawal/index.html.eex:38
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Amount"
 msgstr ""
 
@@ -3696,37 +3696,20 @@ msgstr ""
 msgid "Beacon chain, Withdrawals, %{subnetwork}, %{coin}"
 msgstr ""
 
-#: lib/block_scout_web/templates/address_withdrawal/index.html.eex:29
-#: lib/block_scout_web/templates/block_withdrawal/index.html.eex:23
-#: lib/block_scout_web/templates/withdrawal/index.html.eex:23
-#, elixir-autogen, elixir-format
-msgid "Index"
-msgstr ""
-
-#: lib/block_scout_web/templates/address_contract_verification_via_standard_json_input/new.html.eex:9
-#, elixir-autogen, elixir-format
-msgid "New Smart Contract Verification via Standard input JSON"
-msgstr ""
-
-#: lib/block_scout_web/templates/address_contract_verification_via_json/new.html.eex:5
-#, elixir-autogen, elixir-format
-msgid "New Smart Contract Verification via metadata JSON"
-msgstr ""
-
 #: lib/block_scout_web/templates/layout/_footer.html.eex:31
 #, elixir-autogen, elixir-format
 msgid "Telegram"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:225
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Transaction Action"
 msgstr ""
 
 #: lib/block_scout_web/templates/address_withdrawal/index.html.eex:32
 #: lib/block_scout_web/templates/block_withdrawal/index.html.eex:26
 #: lib/block_scout_web/templates/withdrawal/index.html.eex:26
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Validator index"
 msgstr ""
 
@@ -3736,31 +3719,31 @@ msgid "%{withdrawals_count} withdrawals processed and %{withdrawals_sum} withdra
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:488
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Actual gas amount used by the transaction."
 msgstr ""
 
 #: lib/block_scout_web/templates/chain/show.html.eex:102
 #, elixir-autogen, elixir-format
-msgid "Average block time"
+msgid "Prosjecan blok time"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:404
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Gas Price"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:489
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Gas Used by Transaction"
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:429
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Maximum gas amount approved for the transaction."
 msgstr ""
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:403
-#, elixir-autogen, elixir-format
+#, elixir-autogen, elixir-format, fuzzy
 msgid "Price per unit of gas specified by the sender. Higher gas prices can prioritize transaction inclusion during times of high usage."
 msgstr ""
